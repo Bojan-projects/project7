@@ -1,0 +1,80 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+aside{
+ width: 100%;
+ height: 100vh;
+ background-color: #008e66;
+}
+aside .aside-header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-inline: 2%;
+ padding-block: 2%;
+ background-color: #f6f6f6;
+
+}
+aside .aside-header .logo-img{
+ width:240px;
+}
+aside .aside-header .close-button a{
+ text-decoration: none;
+ color:#008e66;
+
+}
+aside .aside-header .close-button i{
+ font-size: 35px;
+ padding-right: 10px;
+ padding-top: 10px;
+
+}
+aside .aside-list ul{
+ padding: 100px 30px;
+}
+aside .aside-list ul li{
+ list-style: none;
+ padding: 10px 0;
+ border-bottom: 2px solid #f6f6f6;
+ 
+
+}
+aside .aside-list ul li a {
+ text-decoration: none;
+ font-size: 25px;
+ color: #f6f6f6;
+ font-weight: 600;
+ 
+}
+aside .bike{
+ width: 80%;
+ margin-left: 5%;
+}
+.colors-block{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 100%;
+ height: 32px;
+}
+.colors-block:nth-child(1){
+ background-color: #fbd00a;
+}
+.colors-block:nth-child(2){
+ background-color: #ef7025;
+}
+.colors-block:nth-child(3){
+ background-color: #d72129;
+}
+.colors-block:nth-child(4){
+ background-color: #00533a;
+}
+.colors-block:nth-child(5){
+ background-color: #b42080;
+}
+.colors-block:nth-child(6){
+ background-color: #005b9a;
+}
